@@ -35,7 +35,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository }}/PyCAS:${{ steps.get_version.outputs.VERSION }}
+        tags: ghcr.io/${{ github.repository }}/pycas:${{ steps.get_version.outputs.VERSION }}
 
     # Add steps for running tests here before the build and push
 
